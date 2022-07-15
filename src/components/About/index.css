@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.about-body-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dark-body {
+  background-color: #000000;
+}
+.light-body {
+  background-color: #f8fafc;
+}
+.about-img {
+  width: 80px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin: 16px 0px 0px 0px;
+}
+.light-heading {
+  color: #ffffff;
+}
+.dark-heading {
+  color: #000000;
+}
+@media all and (min-width: 768px) {
+  .about-img {
+    width: 100px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
